@@ -1,0 +1,33 @@
+h1{
+    color: yellow;
+}
+h2{
+    color: yellow;
+    font-size: 2em;
+}
+h3{
+    color: yellow;
+}
+.list_style {
+    font-style: inherit;
+    text-align: justify;
+    font-weight:bold;
+    line-height: 18px;
+    color: white;
+
+}
+p {
+    text-align: justify;
+    line-height: 25px;
+    font-weight: lighter;
+    font-size: 18px;
+   color: white;
+  
+}
+body{
+    font-size: 16px;
+    font-family: Copperplate, Papyrus, fantasy;
+    background-color: rgba(0, 0, 0, 0.89);
+#strong{
+    font-weight: bold;
+}
