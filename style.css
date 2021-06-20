@@ -8,11 +8,15 @@ h2{
 h3{
     color: rgba(12, 61, 197, 0.808);
 }
+.home{
+    text-align: center;
+}
 .list_style{
     font-style: inherit;
-    text-align: justify;
     font-weight:bold;
     line-height: 18px;
+    text-align: left;
+  
 }
 p{
     text-align: justify;
@@ -24,17 +28,48 @@ p{
 body{
     font-size: 16px;
     font-family: Copperplate, Papyrus, fantasy;
+    padding: 1%;
+    
 }
 .box1{
-    margin:auto;
-}
-.bloco1{
-    margin-bottom: top;
+    height: 300px;
+   }
+.nome{
     text-align: center;
     vertical-align: top;
-    width: 40%;
-    display: inline-block;
-}
+    position: relative;
+     
+  }
 .foto{
-    border-radius: 50%;
+
+    padding: 5px;
+    background-color: rgb(46, 43, 43);
+    width:150px;
+    position: relative;
+    display: inline-block;
+    margin-left: 5%;
+    
+}
+.descricao{
+    position: absolute;
+    top: 170px;
+    width: 60%;
+    left:25%;
+}
+.bloco2{
+  
+    width:40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align:center;
+ 
+ 
+}
+.contact a{
+    text-decoration: none;
+    color:black;
+    background-color:rgba(12, 61, 197, 0.808);
+    padding: 5px; 
+    border-radius: 4px;
+
 }
