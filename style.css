@@ -1,33 +1,40 @@
 h1{
-    color: yellow;
+    color: rgba(12, 61, 197, 0.808);
 }
 h2{
-    color: yellow;
+    color: rgba(12, 61, 197, 0.808);
     font-size: 2em;
 }
 h3{
-    color: yellow;
+    color: rgba(12, 61, 197, 0.808);
 }
-.list_style {
+.list_style{
     font-style: inherit;
     text-align: justify;
     font-weight:bold;
     line-height: 18px;
-    color: white;
-
 }
-p {
+p{
     text-align: justify;
     line-height: 25px;
     font-weight: lighter;
     font-size: 18px;
-   color: white;
-  
+   
 }
 body{
     font-size: 16px;
     font-family: Copperplate, Papyrus, fantasy;
-    background-color: rgba(0, 0, 0, 0.89);
-#strong{
-    font-weight: bold;
+}
+.box1{
+    margin:auto;
+}
+.bloco1{
+    margin-bottom: top;
+    text-align: center;
+    vertical-align: top;
+    width: 40%;
+    display: inline-block;
+}
+.foto{
+    border-radius: 50%;
 }
